@@ -5,8 +5,8 @@ public class Formulas {
     }
 
     static double calcularAreaCirculo(double raioCirculo) {
-        double pi = 3.14;
+        final double PI = 3.14;
 
-        return raioCirculo * raioCirculo * pi;
+        return raioCirculo * raioCirculo * PI;
     }
 }
